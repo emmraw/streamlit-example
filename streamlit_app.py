@@ -13,7 +13,7 @@ d = st.date_input(
 st.write('Your birthday is:', d)
 
 option = st.selectbox(
-     'What is today's weather like?',
+     "What is today's weather like?",
      ('Sunny', 'Cloudy', 'Rainy'))
 
 # from collections import namedtuple
