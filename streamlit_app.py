@@ -45,7 +45,7 @@ st.header('Practise widgets')
 
 d = st.date_input(
      "Enter today's date",
-     datetime.date(datetime.date.today()))
+     datetime.date(2020,3,21))
 st.write("Today's date is:", d)
 
 option1 = st.selectbox(
