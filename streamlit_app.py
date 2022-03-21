@@ -6,6 +6,7 @@ import streamlit as st
 
 import plotly.express as px
 import datetime
+import time
 """
 # Welcome to Streamlit!
 
@@ -44,7 +45,7 @@ st.header('Practise widgets')
 
 d = st.date_input(
      "Enter today's date",
-     datetime.date())
+     datetime.date(date.today())
 st.write("Today's date is:", d)
 
 option1 = st.selectbox(
