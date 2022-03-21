@@ -1,8 +1,6 @@
 import streamlit as st
 import plotly.express as px
-
-fig = px.pie(values = [1,2,3], names= ['A','B','A'])
-st.plotly_chart(fig)
+import datetime
 
 st.title("Practise Streamlit")
 st.header('Practise widgets')
