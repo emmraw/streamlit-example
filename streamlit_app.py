@@ -4,8 +4,8 @@ import plotly.express as px
 fig = px.pie(values = [1,2,3], names= ['A','B','A'])
 st.plotly_chart(fig)
 
-st.title('DS4')
-st.header('DS4>DS3 == True')
+st.title("Practise Streamlit")
+st.header('Practise widgets')
 # Edit then commit = our work flow
 d = st.date_input(
      "Enter today's date",
