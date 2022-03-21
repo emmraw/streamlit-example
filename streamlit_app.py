@@ -7,7 +7,14 @@ st.plotly_chart(fig)
 st.title('DS4')
 st.header('DS4>DS3 == True')
 # Edit then commit = our work flow
+d = st.date_input(
+     "Enter today's date",
+     datetime.date(today))
+st.write('Your birthday is:', d)
 
+option = st.selectbox(
+     'What is today's weather like?',
+     ('Sunny', 'Cloudy', 'Rainy'))
 
 # from collections import namedtuple
 # import altair as alt
