@@ -1,4 +1,8 @@
 import streamlit as st
+import plotly.express as px
+
+fig = px.pie(values = [1,2,3], names= ['A','B','A'])
+st.plotly_chart(fig)
 
 st.title('DS4')
 st.header('DS4>DS3 == True')
