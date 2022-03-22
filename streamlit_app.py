@@ -54,6 +54,15 @@ option1 = st.selectbox(
      
 option2 = st.selectbox("Is it a bank holiday today?",('No','Yes'))
                      
-option3 = st.selectbox("Is it a special holiday today?",('No','Yes'))
+option3 = st.selectbox("Is there a special event today?",('No','Yes'))
      
 st.write("You chose: ", option1, option2, option3)
+
+add_selectbox = st.sidebar.selectbox(
+    "Is it a bank holiday?",
+    ("No","Yes"))
+
+add_selectbox = st.sidebar.selectbox(
+    ["Is it a bank holiday?","Is there a special event?"]
+    ("No","Yes"),("No","Yes"))
+
