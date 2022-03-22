@@ -63,6 +63,6 @@ add_selectbox = st.sidebar.selectbox(
     ("No","Yes"))
 
 add_selectbox = st.sidebar.selectbox(
-    ["Is it a bank holiday?","Is there a special event?"]
-    ("No","Yes"),("No","Yes"))
+    ["Is it a bank holiday?","Is there a special event?"],
+    [("No","Yes"),("No","Yes")])
 
